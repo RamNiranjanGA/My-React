@@ -41,13 +41,12 @@ import './index.css'
 import Content from "./content.jsx";
 import Footer from "./footer.jsx";
 import Navbar from "./navbar.jsx";
+import CourseList from './courselist.jsx';
 function App(){
   return (
     <>
       <Navbar />
-      <Content name = "HTML" price = "100" ratinng = "⭐⭐⭐⭐ "/>
-      <Content name = "CSS" price = "200" ratinng = "⭐⭐⭐ "/>
-      <Content name = "JavaScript" price = "300" ratinng = "⭐⭐ "/>
+      <CourseList/>
       <Footer />
     </>
   );
